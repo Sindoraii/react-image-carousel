@@ -1,0 +1,34 @@
+.button {
+    background-color: var( --color-toggleBar-bg);
+    width: 34px;
+    height: 34px;
+    align-self: center;
+    box-shadow:var(--shadow-buttons-carousel);
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    user-select:none;
+    outline: 0;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: var(--color-placeholder);
+}
+
+.right {
+    grid-area: 2 / 3 / 3 / 4;
+    justify-self: end;
+    margin-right: 12px;
+}
+
+.left {
+    grid-area: 2 / 1 / 3 / 2;
+    justify-self: start;
+    margin-left: 12px;
+}
+
+@media screen and (max-width: 360px) {
+    .button:hover {
+        background-color: var( --color-toggleBar-bg);
+    }
+}

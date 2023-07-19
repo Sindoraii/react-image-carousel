@@ -1,0 +1,33 @@
+body {
+    --color-bg-image: #E1EAF0;
+    --color-sub-title: #bcbec2;
+    --color-toggleBar-bg: #EFEFF4;
+    --shadow-buttons-carousel: 0 4px 16px 0 rgba(0, 0, 0, 0.25);
+    --color-placeholder: #AAABAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: inherit;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    flex: 0 1;
+    padding: 24px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}

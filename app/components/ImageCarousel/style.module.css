@@ -1,0 +1,62 @@
+.container {
+    position: relative;
+    border-radius: 8px;
+    height: 248px;
+    width: 328px;
+    background-color: var(--color-bg-image);
+}
+
+.hidden {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.interface {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    user-select: none;
+}
+
+.counter {
+    grid-area: 3 / 2 / 4 / 3;
+    justify-self: center;
+    align-self: end;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-sub-title);
+    user-select: none;
+}
+
+.editWrapper {
+    height: max-content;
+    width: max-content;
+    grid-area: 1 / 3 / 4 / 4;
+    justify-self: end;
+    margin: 16px 12px;
+}
+
+.editIcon {
+    background-color: var(--color-toggleBar-bg);
+    border-radius: 4px;
+    box-shadow:var(--shadow-buttons-carousel);
+}
+
+.deleteIcon {
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    margin: 16px 12px;
+    background-color: var(--color-toggleBar-bg);
+    border-radius: 4px;
+    box-shadow:var(--shadow-buttons-carousel);
+}
