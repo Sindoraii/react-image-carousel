@@ -8,6 +8,7 @@ Image carousel has the next functional:
 - navigation via mobile swipe gestures and nav buttons
 
 
+
 Props of ImageCarousel:
 - photos: 
     - type: Array of objects
