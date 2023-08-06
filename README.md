@@ -1,5 +1,5 @@
 ## About project
-There is a simple image carousel. It was created by Next.js.     
+There is a simple image carousel. It was created via Next.js.     
 The carouselcan be used for showing limited number of images.
 
 Image carousel has the next functional:
