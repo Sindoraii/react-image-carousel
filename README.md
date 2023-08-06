@@ -1,5 +1,7 @@
 ## About project
-There is a simple image carousel. It can be used for showing limited number of images.
+There is a simple image carousel. It was created by Next.js.     
+The carouselcan be used for showing limited number of images.
+
 Image carousel has the next functional:
 - showing loaded images 
 - delete loaded images
@@ -8,8 +10,7 @@ Image carousel has the next functional:
 - navigation via mobile swipe gestures and nav buttons
 
 
-
-Props of ImageCarousel:
+### Props of ImageCarousel:
 - photos: 
     - type: Array of objects
     - description: Images for the Image carousel
