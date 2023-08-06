@@ -43,7 +43,7 @@ const App = () => {
                 </div>
                 <div className={'wrapper'}>
                     <h2>Carousel is only for reading loaded images</h2>
-                    <ImageCarousel maxImages={4} isEdit={false} photos={stubImages} handlerData={handleImages}/>
+                    <ImageCarousel maxImages={4} isEdit={false} photos={stubImages} />
                 </div>
             </main>
         </>
