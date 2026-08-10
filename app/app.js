@@ -39,6 +39,7 @@ const App = () => {
             <main className='main'>
                 <div className={'wrapper'}>
                     <h2>Carousel is for images which can be deleted,loaded,edited</h2>
+                    <h3>Click to field below for loading your images</h3>
                     <ImageCarousel maxImages={4} isEdit={true} photos={images} handlerData={handleImages}/>
                 </div>
                 <div className={'wrapper'}>
