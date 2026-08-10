@@ -12,27 +12,27 @@ Image carousel has the next functional:
 
 ### Props of ImageCarousel:
 - photos: 
-    - type: Array of objects
-    - description: Images for the Image carousel
-    - values: objects have 2 property: alt:string and url:string
+    - **type**: Array of objects
+    - **description**: Images for the Image carousel
+    - **values**: objects have 2 property: alt:string and url:string
 Values of property are creating when images are loadend via FileReader web API
 
 - isEdit:
-    - type: boolean
-    - description: flag for mode the Image carousel
-    - values:
+    - **type**: boolean
+    - **description**: flag for mode the Image carousel
+    - **values**:
         - true - functional for navigation, deleting,editing and loading images is available
         - false - functional for only navigation is available. Other functional (loading,editing,deleting images) is disabled
 
 - handlerData:
-    - type: callback-function
-    - description: Function is handler for reaction on change images
-    - values: It`s used for getting images into the parent state or for something else
+    - **type**: callback-function
+    - **description**: Function is handler for reaction on change images
+    - **values**: It`s used for getting images into the parent state or for something else
 
 - maxImages:
-    - type: number
-    - description: Max value of images into the Image carousel
-    - values: any integer
+    - **type**: number
+    - **description**: Max value of images into the Image carousel
+    - **values**: any integer
 
 
 ## Getting Started
