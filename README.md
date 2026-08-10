@@ -20,8 +20,9 @@ Values of property are creating when images are loadend via FileReader web API
 - isEdit:
     - type: boolean
     - description: flag for mode the Image carousel
-    - values: true - functional for navigation, deleting,editing and loading images is available
-              false - functional for only navigation is available. Other functional (loading,editing,deleting images) is disabled
+    - values:
+        - true - functional for navigation, deleting,editing and loading images is available
+        - false - functional for only navigation is available. Other functional (loading,editing,deleting images) is disabled
 
 - handlerData:
     - type: callback-function
